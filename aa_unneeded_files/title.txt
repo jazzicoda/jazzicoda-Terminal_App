@@ -168,3 +168,21 @@
 (__)              (__|__)   (__)            
 "Wet Letter"
 
+
+
+gem "colorize", "~> 0.8.1"
+
+gem "rspec", "~> 3.10"
+
+gem "tty", "~> 0.5.0"
+gem "prompt", "~> 1.2"
+
+gem "artii", "~> 2.1"
+
+gem "rainbow", "~> 3.0"
+
+gem "pastel", "~> 0.6.1"
+
+gem "tty-prompt", "~> 0.6.0"
+
+gem "lolcat", "~> 100.0"

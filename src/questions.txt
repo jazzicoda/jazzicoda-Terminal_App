@@ -1,21 +1,19 @@
-1
-question = GameQuestion.new("Good moring, has {child_name} woken up to their alarm?", {"yes": 5, "no": 0})
-2
-question = GameQuestion.new("Have they had breakfast?", {"yes": 5, "no": -5})
-3
-question = GameQuestion.new("Did they go to school today?", {"yes": 5, "no": -5})
-4
-question = GameQuestion.new("Did you work while they were at school?", {"yes": 5, "no": 0})
-5
-question = GameQuestion.new("Lunchtime! Did you pack them a healthy lunch?", {"yes": 5, "no": 0})
-6
-question = GameQuestion.new("It's 3pm, are you at the school chatting to other parents, waiting for {name}?"", {"yes": 5, "no": 0})
-7
-question = GameQuestion.new(""Do they go to at least one after school activity each week?"", {"yes": 5, "no": 0})
-8
-question = GameQuestion.new(""Time for dinner. Did you cook dinner tonight?", {"yes": 5, "no": -5})
-9
-question = GameQuestion.new("Has {name} brushed their teeth?", {"yes": 5, "no": -10})
-10
-question = GameQuestion.new("Is Bed time earlier than 8pm?", {"yes": 5, "no": 0})
+question1 = GameQuestion.new("Good moring, has {child_name} woken up to their alarm?", {"yes": 5, "no": 0})
 
+question2 = GameQuestion.new("Have they had breakfast?", {"yes": 5, "no": -5})
+
+question3 = GameQuestion.new("Did they go to school today?", {"yes": 5, "no": -5})
+
+question4= GameQuestion.new("Did you work while they were at school?", {"yes": 5, "no": 0})
+
+question5 = GameQuestion.new("Lunchtime! Did you pack them a healthy lunch?", {"yes": 5, "no": 0})
+
+question6 = GameQuestion.new("It's 3pm, are you at the school chatting to other parents, waiting for {name}?"", {"yes": 5, "no": 0})
+
+question7 = GameQuestion.new(""Do they go to at least one after school activity each week?"", {"yes": 5, "no": 0})
+
+question8 = GameQuestion.new(""Time for dinner. Did you cook dinner tonight?", {"yes": 5, "no": -5})
+
+question9 = GameQuestion.new("Has {name} brushed their teeth?", {"yes": 5, "no": -10})
+
+question10 = GameQuestion.new("Is Bed time earlier than 8pm?", {"yes": 5, "no": 0})
