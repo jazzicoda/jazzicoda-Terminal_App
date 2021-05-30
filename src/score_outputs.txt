@@ -1,0 +1,15 @@
+If score is <10, puts "You should really reconsider being a parent."
+
+
+If score is 11-20, puts "You could try a little harder. It's not brain surgery you know"
+
+
+If score is 21-30, puts "You're ok mate! Not cream of the crop, but could be worse."
+
+
+If score is 31-40, puts "Are you trying to be a good parent? Keep trying."
+
+
+If score is 41-50, puts "So crunchy mummy, you think you're all that huh??."
+
+
