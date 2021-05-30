@@ -13,3 +13,6 @@ If score is 31-40, puts "Are you trying to be a good parent? Keep trying."
 If score is 41-50, puts "So crunchy mummy, you think you're all that huh??."
 
 
+#THEN ALL GETS: 
+
+"But at the end of the day, you will always do the best for your child. Haters gonna hate, so keep your chin up {mumma/pappa}. If you are now, or choose to become a parent, you got this!

@@ -3,7 +3,7 @@
     "username": "Bob",
         "password": "password1",
     "scores": {"date":5, "date": 5},
-    "role":
+    // "role": choice of "mumma":  "pappa"
     }
     {
     "username": "Jaz",
