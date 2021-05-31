@@ -1,9 +1,12 @@
-# #link files
-# require_relative './game_questions'
+# --------------#
+#   LINK FILES  #
+# --------------#
 # require_relative './user'
-# require_relative './title'
 
-# #link gems
+
+# --------------#
+#   LINK GEMS   #
+# --------------#
 require 'tty-prompt'
 require 'lolcat'
 require 'artii'
@@ -13,15 +16,29 @@ require 'colorize'
 # # clear terminal DONE
 # # welcome DONE
 # # "login" or "new user" - gets: name, role (mamma/pappa), DONE
-# # game menu - start game (0-4yo child)(not part of MVP), start game (5-10yo child)
+# # game menu DONE
 # # start game
 # # view results
-
-
+# # help
 
 # --------------#
-#   MAIN BODY   #
+#   METHODS     #
 # --------------#
+def questions
+    puts "Questioning"
+end
+
+def view_score
+    puts "viewing is good"
+end
+
+def help
+    puts "Helping"
+end
+
+# ----------------------#
+#   MAIN BODY           #
+# ----------------------#
 
 # --------------#
 #   WELCOME     #
@@ -65,7 +82,6 @@ end
 # --------------#
 #   GAME MENU   #
 # --------------#
-# prompt = TTY::Prompt.new
 prompt = TTY::Prompt.new(active_color: :blue)
 # @selected_choice = prompt.select("What would you like to do?", %w(Start-game View-scores Quit)).colorize(:blue)
 
@@ -80,16 +96,16 @@ def menu(prompt)
 end
 
 loop do
-    puts "================================"
+    puts "======================================"
     puts
 
     case menu(prompt)
     when 1
-        puts "1"
+        puts questions
     when 2
-        puts "2"
+        puts view_score
     when 3
-        puts "3"
+        puts help
     when 4
         exit
     end
@@ -98,6 +114,7 @@ end
 # --------------#
 #   QUESTIONS   #
 # --------------#
+
 
 # @selected_choice = prompt.select("What would you like to do?", %w(Start-game View-scores Quit)).colorize(:blue)
 # puts @selected_choice
@@ -108,6 +125,7 @@ end
 # --------------#
 #   SCORES      #
 # --------------#
+
 
 # users.each do |key, user|
 #     score = 0
@@ -137,4 +155,5 @@ end
 # --------------#
 #   HELP        #
 # --------------#
+
 
