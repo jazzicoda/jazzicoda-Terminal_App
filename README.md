@@ -23,15 +23,7 @@ This app is a tongue-in-cheek game considering some of those concepts - lets see
 World hunger and world peace.... are NOT going to be solved by this app! It is just a bit of frivilous fun. Since becoming a parent myself, it is obvious how everyone has VERY STRONG opinions of how we should parent our kids. This is simply a fun little game to shine a light on this social norm, and maybe make the player consider their future judgements.
 
 ## TARGET AUDIENCE
-TBA.........
-
-|User Story |Acceptance Criteria|
-|:---:|:---:|
-|As a parent, Greta doesn't have much time for games.|Design an app which doesn't take long to play, to attract Greta|
-|As a parent|Include: education, resume, tech stack|
-|As a prospective employer, I want to know what tech stack Jasmine has accomplished, so i know if she has the skills I require on my team| Show tech stack as a visual for easy identification of skills|
-|As a prospective employer, I want clear navigation, so I can find my way around the site easily.| Easy, fully linked Nav Bar. Easy access to github, etc|
-|As a prospective employer, I want to know how I can get in contact with Jasmine, so I can offer her a job.|Include a contact form, email address, and access to socials to make contact|
+The target audience for this app/game is parents, or those wanting to be parents
 
 ## FEATURE ONE
 # Using file for User System
