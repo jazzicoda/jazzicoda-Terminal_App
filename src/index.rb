@@ -25,20 +25,32 @@ require 'colorize'
 #   METHODS     #
 # --------------#
 def questions
+    arti = Artii::Base.new :font => 'slant'
+    puts arti.asciify('Lets Play!').colorize(:magenta)
     puts "Questioning"
 end
 
 def view_score
+    arti = Artii::Base.new :font => 'slant'
+    puts arti.asciify('Scores!').colorize(:magenta)
     puts "viewing is good"
 end
 
 def help
+    arti = Artii::Base.new :font => 'slant'
+    puts arti.asciify('Help!').colorize(:magenta)
     puts "Helping"
 end
 
-# ----------------------#
-#   MAIN BODY           #
-# ----------------------#
+# --------------#
+#   CLASSES     #
+# --------------#
+
+
+
+# ---------------------------#
+#   MAIN BODY                #
+# ---------------------------#
 
 # --------------#
 #   WELCOME     #

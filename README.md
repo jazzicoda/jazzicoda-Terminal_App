@@ -34,14 +34,15 @@ TBA.........
 |As a prospective employer, I want to know how I can get in contact with Jasmine, so I can offer her a job.|Include a contact form, email address, and access to socials to make contact|
 
 ## FEATURE ONE
-# Using File for User System
+# Using file for User System
 
 
 ## FEATURE TWO
-The User Stories made it clear that I needed a site which has:
+# Interactive menu system
+
 
 ## FEATURE THREE
-The User Stories made it clear that I needed a site which has:
+# Calculating score based on answers 
 
 ## FLOW CHART
 Below are the 2 main flow charts for my app. 
