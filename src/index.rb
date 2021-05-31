@@ -127,6 +127,7 @@ def all_questions
     puts
     puts "Is Bed time earlier than 8pm? (yes/no)"
     answer = gets.chomp.downcase
+    puts "Your score is:"
         if answer == "yes"
             score += 5; 
         else
