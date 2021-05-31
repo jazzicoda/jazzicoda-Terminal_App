@@ -7,34 +7,35 @@ Presented by: Jasmine Ofaolain
 ------------------------------
 Assignment: T1A3
 ------------------------------
-Below is the documentation pertaining to my Terminal App Assignment (T1A3).
-
 
 ## GITHUB REPO
-For access to the repository, [CHANGE LINK](https://github.com/jazzicoda/Terminal_App).
+For access to the GitHub Repository for this app, [CLICK HERE](https://github.com/jazzicoda/jazzicoda-Terminal_App).
 
 ## STATEMENT OF PURPOSE
-The purpose of this project is to create a Terminal App which.........
+Modern day parenting is a balancing act! Be “too caring” towards your child and you are judged as being “crunchy”. Breastfeed you child and be judged as a lactivist! Bottle feed your child and be judged for not giving your child the best start to life. Feed your kid processed food? Look out, you will be judged! It really is a minefield out there! 
+
+This app is a tongue-in-cheek game considering some of those concepts - lets see if you really are a terrible parent.
 
 ## WHAT DOES THE APP DO?
-From the brief, it
+"The Judged Parent Game" is a short and sweet 'game' which asks various questions throughout one day in the life the player's "child" (real or fictitious, you decide). Actions are scrutinised and responses are scored. 
 
 ## WHAT PROBLEM IS THIS APP SOLVING?
-From the brief, it
+World hunger and world peace.... are NOT going to be solved by this app! It is just a bit of frivilous fun. Since becoming a parent myself, it is obvious how everyone has VERY STRONG opinions of how we should parent our kids. This is simply a fun little game to shine a light on this social norm, and maybe make the player consider their future judgements.
 
 ## TARGET AUDIENCE
 TBA.........
 
 |User Story |Acceptance Criteria|
 |:---:|:---:|
-|CHANGE THIS a prospective employer (Ally), I am looking to employ a Junior Dev, so I can expand my team.|Design a website to attract Ally|
-|As a prospective employer, I want to see Jasmine’s experience, so I can make educated assumptions|Include: education, resume, tech stack|
+|As a parent, Greta doesn't have much time for games.|Design an app which doesn't take long to play, to attract Greta|
+|As a parent|Include: education, resume, tech stack|
 |As a prospective employer, I want to know what tech stack Jasmine has accomplished, so i know if she has the skills I require on my team| Show tech stack as a visual for easy identification of skills|
 |As a prospective employer, I want clear navigation, so I can find my way around the site easily.| Easy, fully linked Nav Bar. Easy access to github, etc|
 |As a prospective employer, I want to know how I can get in contact with Jasmine, so I can offer her a job.|Include a contact form, email address, and access to socials to make contact|
 
 ## FEATURE ONE
-The User Stories made it clear that I needed a site which has:
+# Using File for User System
+
 
 ## FEATURE TWO
 The User Stories made it clear that I needed a site which has:

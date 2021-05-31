@@ -45,7 +45,7 @@ print "Do you identify as a 'mamma', 'pappa' or 'carer'? ".colorize(:blue)
 # @new_user = new_user(name, role) how to add the role to the user?
 @lines = File.readlines("users.txt")
 
-@lines.map { |user| @new_user = false if user.strip == @user_input}
+@lines.map {|user| @new_user = false if user.strip == @user_name}
 
 if @new_user
     puts
@@ -54,7 +54,7 @@ if @new_user
     puts
     puts "Have fun analyzing your potantial parenting abilities, I'm sure you will be the best #{@user_role.capitalize} ever!!".colorize(:cyan)
     puts
-    File.write("users.txt", "#{@user_input}\n", mode: "a") #not working
+    File.write("users.txt", "#{@user_name}\n", mode: "a") 
 else
     puts "Welcome back, we are so happy to see you again!".colorize(:cyan)
     puts "Will your performance improve this time?".colorize(:cyan)
@@ -66,15 +66,53 @@ end
 # --------------#
 # prompt = TTY::Prompt.new
 prompt = TTY::Prompt.new(active_color: :blue)
-prompt.select("What would you like to do?", %w(Start-game View-scores Quit)).colorize(:blue)
+# @selected_choice = prompt.select("What would you like to do?", %w(Start-game View-scores Quit)).colorize(:blue)
+
+def menu(prompt)
+    choices = [
+        {name: "Start-game", value: 1},
+        {name: "View-scores", value: 2},
+        {name: "Help", value: 3},
+        {name: "Quit", value: 4},
+    ]
+    prompt.select("What would you like to do?", choices)
+end
+
+loop do
+    puts "================================"
+    puts
+    menu(prompt)
+
+    case menu(prompt)
+    when 1
+        puts "1"
+    when 2
+        puts "2"
+    when 3
+        puts "3"
+    when 4
+        exit  
+    end
+end
+
+# Start Game
 
 
+# View Scores
+
+
+# Help
+
+# Quit
+# exit
 
 
 # --------------#
 #   QUESTIONS   #
 # --------------#
 
+# @selected_choice = prompt.select("What would you like to do?", %w(Start-game View-scores Quit)).colorize(:blue)
+# puts @selected_choice
 
 
 
