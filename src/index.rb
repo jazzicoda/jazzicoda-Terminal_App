@@ -5,8 +5,6 @@
 
 # #link gems
 require 'tty-prompt'
-require 'rainbow'
-require 'pastel'
 require 'lolcat'
 require 'artii'
 require 'colorize'
@@ -56,9 +54,12 @@ if @new_user
     puts
     File.write("users.txt", "#{@user_name}\n", mode: "a") 
 else
+    puts
+    puts
     puts "Welcome back, we are so happy to see you again!".colorize(:cyan)
-    puts "Will your performance improve this time?".colorize(:cyan)
-    puts "I'm sure you will be the best #{@user_role.capitalize} ever!".colorize(:cyan)
+    puts
+    puts "Will your performance improve this time? I'm sure you will be the best #{@user_role.capitalize} ever, this time!".colorize(:cyan)
+    puts
 end
 
 # --------------#
@@ -81,7 +82,6 @@ end
 loop do
     puts "================================"
     puts
-    menu(prompt)
 
     case menu(prompt)
     when 1
@@ -91,21 +91,9 @@ loop do
     when 3
         puts "3"
     when 4
-        exit  
+        exit
     end
 end
-
-# Start Game
-
-
-# View Scores
-
-
-# Help
-
-# Quit
-# exit
-
 
 # --------------#
 #   QUESTIONS   #
@@ -144,3 +132,9 @@ end
 # question.ask_question
 # total_points += question.select_option
 # puts total_points
+
+
+# --------------#
+#   HELP        #
+# --------------#
+
