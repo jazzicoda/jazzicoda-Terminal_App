@@ -55,8 +55,8 @@ Using string interpolation, the score variable is called in the View-score area.
 At the end of this feature, all users receive the “But at the end of the day...” message and the Gillian Anderson quote. As an added feature, the Espeak Gem is used to speak the Gillian Anderson quote out loud.
 
 
-## FLOW CHART
-Below are the flow charts for my app. 
+## FLOW CHARTS
+Below are the flow charts created for this app. 
 
 ### Initialise and run program until games menu: <br>
 The flowchart below illustrates the flow of information and the relationships from the moment the program is launched up until the game menu is engaged, and a selection from the menu is made.<br>
@@ -79,7 +79,10 @@ The implimentation of this app took place in three main stages:
 My approach to implementing the project was to develop my initial idea for an app. This idea was teased out and I was able to come up with comprehensive flowcharts which layed the foundations for my coding.
 
 *CODING*<br>
-Once the flow charts were finalised, I moved into the coding phase. I utilised TDD (test driven development) throughout the process. As a junior developer, I am continuously saving and running my coding to check that my logic is sound, and that my code is error free. I find it easier to do this regularly so that it is easier for me to backtrack and work out what my errors (along with the assistance of Ruby's wonderful error messaging). While I do this testing continuously, I have noted down a few of these test I have run in this [Manual Testing Documentation](https://docs.google.com/spreadsheets/d/e/2PACX-1vT0KFBQAjzekraiURus3QTB79vqDB22bzV3vBm833K1DO5YLtuwRM0J1K50ruyGaJ0HwQ0yYBwYxm8A/pubhtml). Wherever possible I go back and refactor code. I know by the end of this bootcamp I will look back on this project and take to it with a fine toothcomb - refactoring all of the messy code within. I am still learning, so I am not there yet.
+Once the flow charts were finalised, I moved into the coding phase. I utilised TDD (test driven development) throughout the process. As a junior developer, I am continuously saving and running my coding to check that my logic is sound, and that my code is error free. I find it easier to do this regularly so that it is easier for me to backtrack and work out what my errors (along with the assistance of Ruby's wonderful error messaging). While I do this testing continuously, I have noted down a few of these test I have run in this [Manual Testing Documentation](https://docs.google.com/spreadsheets/d/e/2PACX-1vT0KFBQAjzekraiURus3QTB79vqDB22bzV3vBm833K1DO5YLtuwRM0J1K50ruyGaJ0HwQ0yYBwYxm8A/pubhtml). 
+
+Wherever possible I go back and refactor code. I know by the end of this bootcamp I will look back on this project and take to it with a fine toothcomb - refactoring all of the messy code within. I am still learning, so I am not there yet.
+
 
 *DOCUMENTING*<br>
 Documentation for the project has been produced using various programs:

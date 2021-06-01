@@ -1,0 +1,119 @@
+commit 1f62c91ea34033954a016621acb8335fbb613100
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 21:28:13 2021 +1000
+
+    Updated README file and replace ppt Slides.
+
+commit aa13d9e71e178bdb1a450b66b801b92c21069e97
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 20:25:07 2021 +1000
+
+    Updated README.md file
+
+commit e9117bb8bf12ad754f44f5fec6ae406deeaa3246
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 18:33:08 2021 +1000
+
+    Updated README.md
+
+commit a74fdf2e4a51f8f3e1e96463f285ee3bbebbb5d8
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 18:00:15 2021 +1000
+
+    Teaked formatting, reinstalled bundler with only relevant gems.
+
+commit 9860d908f0cba08db0904310a9c7c9f8f9dbfc8d
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 17:26:49 2021 +1000
+
+    Espeak gem utilised and tested. Scoring bug fixed.
+
+commit e6fb269158a34a017968d4289cd502f69782205c
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 15:22:48 2021 +1000
+
+    still working on view_score output bugs
+
+commit f750b851e29ebbed3767d5e9e5dae873cfc1c026
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 15:10:03 2021 +1000
+
+    working on view_score output bugs
+
+commit 7da674fc0e77634d89a731f290b40211e00c5040
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 14:32:36 2021 +1000
+
+    Adding a loop to View-score output so a different comment is printed depending on score. Started working on espeak gem output.
+
+commit 88ee005395a501f6d8969c9c79e0b19a52130228
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 13:29:59 2021 +1000
+
+    Fixed scoring bug. Added error handling to questions.
+
+commit 7b7d7041ffaf7c3f5b5c5f3b02a6a33232105495
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 12:21:55 2021 +1000
+
+    updated ppt slides, updated README
+
+commit ca8390edc8ea3d5d43654db4652f3004fcfb5107
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Tue Jun 1 04:16:09 2021 +1000
+
+    PPT added; run_program.sh created; index.rb updateded: tweaked questions, help filled in
+
+commit 9b1adf8dfab95faf2f72752f9a29d41d5bb49d35
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Mon May 31 19:13:11 2021 +1000
+
+    Game questions loaded and run through the terminal
+
+commit c5e1f2e61b34116ad0bc50fe3b5869564d61d7d4
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Mon May 31 15:40:24 2021 +1000
+
+    Question method created. Start-Game pushes through to Question method
+
+commit 8571448216558ddff95fa1c8f157ac47e434cdc4
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Mon May 31 14:13:58 2021 +1000
+
+    Updated menu functions and titles for each menu item
+
+commit 58511e70587d35f77788b9885dfa73321d93b8c5
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Mon May 31 12:37:06 2021 +1000
+
+    Game menu: linked menu items to methods.
+
+commit 368b7c1e37ff921c23c5c34f4df785acea1de90c
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Mon May 31 12:19:59 2021 +1000
+
+    Game menu: fixed menu selection glitch, neatened up the section heading comments
+
+commit ec725375dce202480cc4ff53b2750fccdaad6d83
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Mon May 31 11:06:32 2021 +1000
+
+    Welcome: fixed file error and loop error. Game menu: set up, but trying to link correctly
+
+commit 3afc1810470bf8bd36a593a98323f5a37201d89f
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Mon May 31 01:32:45 2021 +1000
+
+    Cleaned up file system. INDEX: added user section; added section headings; finished welcome section
+
+commit 010d844ee9251f2389074bb39d146e0fe6b523b2
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Sun May 30 20:18:12 2021 +1000
+
+    updated score and user files
+
+commit 660ca5b0e0d4994b9835fb5a5be7c554986c312c
+Author: Jasmine Ofaolain <jasmineofaolain@gmail.com>
+Date:   Sun May 30 19:21:22 2021 +1000
+
+    initial commit
