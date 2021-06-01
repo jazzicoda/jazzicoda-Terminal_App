@@ -210,23 +210,36 @@ def view_score(score)
     system 'clear'
     arti = Artii::Base.new :font => 'slant'
     puts arti.asciify('Scores!').colorize(:magenta)
-    puts "#{@user_role.capitalize} #{@user_name.capitalize}, you scored #{score}!"
-    # incorporate score outputs if possible:
-    # If score is <10, puts "You should really reconsider being a parent."
-
-
-    # If score is 11-20, puts "You could try a little harder. It's not brain surgery you know"
+    puts
+    puts '"#{@user_role.capitalize} #{@user_name.capitalize}", your score is #{@score}!'
+    puts
+    if
+        score < 10
+        puts "You should really reconsider being a parent."
+    elsif
+        score == 11..20
+        puts "You could try a little harder. It's not brain surgery you know"
+    elsif
+        score == 21..30
+        puts "You're ok mate! Not cream of the crop, but could be worse."
+    elsif
+        score == 31..40
+        puts "Are you trying to be a good parent? Keep trying."
+    elsif
+        score 41..50
+        puts 'So "Crunchy mummy", you think you are all that huh??'
+        puts "\u{1f600}"
+    else
+        puts "I need a coffee! I have no idea what you just did! Starte again??"
+        # puts "\u{1f600}"
+    end
     
-    
-    # If score is 21-30, puts "You're ok mate! Not cream of the crop, but could be worse."
-    
-    
-    # If score is 31-40, puts "Are you trying to be a good parent? Keep trying."
-    
-    
-    # If score is 41-50, puts "So crunchy mummy, you think you're all that huh??."
-
-    # "But at the end of the day, you will always do the best for your child. Haters gonna hate, so keep your chin up {mumma/pappa}. If you are now, or choose to become a parent, you got this!" ##using Espeak Gem to say it##
+    puts
+    puts "But at the end of the day, you will always do the best for your child. If you are now, or choose to become a parent, you got this!" 
+    puts "In the words of Gillian Anderson:"
+    speech = ESpeak::Speech.new("Let's stop being so damn judgmental and crucifying everyone who doesn't fit into our boxed-in perceptions of what is right.")
+    speech.speak
+    puts "Let's stop being so damn judgmental and crucifying everyone who doesn't fit into our boxed-in perceptions of what is right."
 end
 
 def help
