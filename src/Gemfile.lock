@@ -4,13 +4,6 @@ GEM
     artii (2.1.2)
     colorize (0.8.1)
     espeak-ruby (1.0.4)
-    lolcat (100.0.1)
-      manpages (~> 0.6.1)
-      optimist (~> 3.0.0)
-      paint (~> 2.1)
-    manpages (0.6.1)
-    optimist (3.0.1)
-    paint (2.2.1)
     pastel (0.8.0)
       tty-color (~> 0.5)
     tty-color (0.6.0)
@@ -32,8 +25,7 @@ DEPENDENCIES
   artii (~> 2.1)
   colorize (~> 0.8.1)
   espeak-ruby (~> 1.0)
-  lolcat (~> 100.0)
   tty-prompt (~> 0.23.1)
 
 BUNDLED WITH
-   2.2.18
+   2.2.19

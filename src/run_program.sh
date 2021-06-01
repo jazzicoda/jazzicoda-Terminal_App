@@ -5,4 +5,5 @@ echo "Enjoy the game!"
 gem install bundler
 bundle install
 
+cd src
 ruby index.rb
