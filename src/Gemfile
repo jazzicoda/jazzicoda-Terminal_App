@@ -15,3 +15,5 @@ gem "tty-prompt", "~> 0.23.1"
 gem "lolcat", "~> 100.0"
 
 gem "espeak-ruby", "~> 1.0"
+
+gem "espeak-ruby", "~> 1.0", require: "espeak"

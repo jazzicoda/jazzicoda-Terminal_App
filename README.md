@@ -17,7 +17,7 @@ Modern day parenting is a balancing act! Be “too caring” towards your child 
 This app is a tongue-in-cheek game considering some of those concepts - lets see if you really are a terrible parent.
 
 ## WHAT DOES THE APP DO?
-"The Judged Parent Game" is a short and sweet 'game' which asks various questions throughout one day in the life the player's "child" (real or fictitious, you decide). Actions are scrutinised and responses are scored. 
+"The Judged Parent Game" is a short and sweet 'game'. It asks various questions throughout one day in the life the player's "child" (real or fictitious, you decide). Actions are scrutinised and responses are scored. 
 
 As the user makes their way through the game questions, they are asked whether their "child" (or the "parent/carer") has completed certain tasts throughout the day. These tasks are then scored and the player is given an accumulated score at the end of the game.
 
@@ -65,7 +65,7 @@ This flowchart ilustrates the order of questions as well as the allocation of po
 The implimentation of this app took place in three main stages:
 - Planning
 - Coding
-- Refactoring
+- Refactoring (ongoing)
 
 ## PROJECT MANAGEMENT
 Trello was used for project management throughout the project. I created multiple lists and cards from the assignment brief and created check boxes within each card to keep track of individual tasks. Dates were assignend to some cards to ensure I kept on track and the project would be completed on time.
