@@ -36,42 +36,33 @@ This feature utilises the GETS method and USER INPUT to gather information about
 User is then asked whether they identify as "Mumma", "Pappa" or "Carer" - this will accept any input string so it is customisable depending on how the user identifies themselves. This data is used to customise the welcome message, but is not stored. 
 
 <img src="docs/feature_twoA.png" alt="readme" width=400><br>
-<img src="docs/feature_twoB.png" alt="readme" width=100%/><br>
+<img src="docs/feature_twoB.png" alt="readme" width=400/><br>
 The TTY-Prompt Gem has been utilised for simple, clean aesthetics. It helps to make the Game Menu easy to follow and user friendly.
 A choice array has been used to feed the four menu options into the prompt command.
 
 A loop has been utilised with a case method to display the list of menu items, and keep returning to the menu once the user has finished with each feature of the game.
 
-<img src="docs/feature_threeA.png" alt="readme" width=500/><br>
-<img src="docs/feature_threeB.png" alt="readme" width=500/><br>
-The ‘yes’ or ‘no’ answer of each question has a score value associated with it
-User input received using gets.chomp.downcase
-The method calculates the score correctly, and is stored in a score variable
-Incorrect user input is handled with rescue-retry-end method
+<img src="docs/feature_threeA.png" alt="readme" width=400/><br>
+<img src="docs/feature_threeB.png" alt="readme" width=400/><br>
+Each question has a ‘yes’ or ‘no’ answer. Each answer has a score value associated with it. When the user puts in their yes or no answer, using gets.chomp.downcase, the acore associated with that is stored inside the score variable. The score is accumulated in each step of the loop (ie per question).
 
-The score variable is called
-using string interpolation in
-the View-score area
-User name and roles are used 
-to personalise to score output
-Depending on the score, a 
-different message is displayed
-All users receive the “But at the
-end of the day” message
-All users receive the Gillian Anderson quote
-Espeak Gem is used to speak the Gillian Anderson quote.
+If the user types an incorrect string (other than yes, y, no, n) the resulting error is handled with rescue-retry-end error handling.
+
+Using string interpolation, the score variable is called in the View-score area. To personalise the user experience, the user name and role are used in the score output. Further personalisation is achieved by displaying an different message depending on the score.
+
+At the end of this feature, all users receive the “But at the end of the day...” message and the Gillian Anderson quote. As an added feature, the Espeak Gem is used to speak the Gillian Anderson quote out loud.
 
 
 ## FLOW CHART
 Below are the flow charts for my app. 
 
 ### Initialise and run program until games menu: <br>
-This illustrates the flow of information and the relationships from the moment the program is launched, up until game menu is launched and a selection from the menu is made.
-<img src="docs/terminal_app_flowchart-Feature 1 - Menu and User Login.jpg" alt="readme" width=500/><br>
+This illustrates the flow of information and the relationships from the moment the program is launched, up until game menu is launched and a selection from the menu is made.<br>
+<img src="docs/terminal_app_flowchart-Feature 1 - Menu and User Login.jpg" alt="readme" width=400/><br>
 
 ### Game play <br>
-This flowchart ilustrates the order of questions as well as the allocation of points for each question. Once game play is initiated, the flow is very linial, only wavering to include the allocation of points.
-<img src="docs/flowchart_questions.png" alt="readme" width=800/><br>
+This flowchart ilustrates the order of questions as well as the allocation of points for each question. Once game play is initiated, the flow is very linial, only wavering to include the allocation of points.<br>
+<img src="docs/flowchart_questions.png" alt="readme" width=100%/><br>
 
 
 ## IMPLEMENTATION PLAN 
@@ -86,10 +77,12 @@ Trello was used for project management throughout the project. I created multipl
 Colour coding was used to signify when items were "In Progress" (orange), "Complete" (green), or "Urgent" (red) 
 
 I took regular screenshots of the use of Trello board throughout the project. 
+<img src="docs/feature_threeA.png" alt="readme" width=400/><br>
+
+But you can see the rest of them [HERE](https://docs.google.com/document/d/e/2PACX-1vQun1kX_xLPlq6ESECmtacSUUYXoFzPxHu7fg89LZiRIj5RkhIwrdd6nvucdTN5mywYY0iLMD6mVxQ2/pub).
 
 
-But you can see the rest of them [HERE](https://docs.google.com/document/u/2/d/e/2PACX-1vTv5MLhcjZVJTID-RodnFd9oYD89nNbIfeOWxKo1DkSruCfaxzoYbQhUk6mHS_Y9mrHi-2D7oAb0hCQ/pub).
-
+# Manual Testing Documentation can be found [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vT0KFBQAjzekraiURus3QTB79vqDB22bzV3vBm833K1DO5YLtuwRM0J1K50ruyGaJ0HwQ0yYBwYxm8A/pubhtml).
 
 ## HELP DOCUMENTATION
 
@@ -97,4 +90,18 @@ But you can see the rest of them [HERE](https://docs.google.com/document/u/2/d/e
 
 
 ## REFERENCES
+
+- Brandon J, 2020, Ruby Error Handling, Academy of Information Technology
+
+- Brandon J, 2020, Ruby Gems, Academy of Information Technology
+
+- Brandon J, 2020, Ruby Gems Bundler, Academy of Information Technology
+
+- Brandon J, 2020, Ruby Inheritance and Mixins, Academy of Information Technology
+
+- Brandon J, 2020, Testing Ruby with Rspec, Academy of Information Technology
+
+- Nayak N, 2020, Methods, Academy of Information Technology
+
+- Nayak N, 2020, Iterators, Academy of Information Technology
 
