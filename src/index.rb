@@ -20,117 +20,197 @@ def all_questions
     score = 0
     #q1 
     puts
+    begin 
     puts "Good moring, has your child woken up to their alarm? (yes/no)"
     answer = gets.chomp.downcase
         if answer == "yes"
             score += 5; 
-        else
+        elsif answer == "no"
             score += 0;
+        else
+            raise
         end 
+    rescue 
+        puts "Invalid answer. Please type yes or no."
+        sleep(1)
+        retry
+    end
+
 
     #q2
     puts
+    begin
     puts "Have they had breakfast? (yes/no)"
     answer = gets.chomp.downcase
         if answer == "yes"
             score += 5; 
-        else
+        elsif answer == "no"
             score -= 5;
+        else
+            raise
         end 
+    rescue 
+        puts "Invalid answer. Please type yes or no."
+        sleep(1)
+        retry
+    end 
 
     #q3
     puts
+    begin
     puts "Did they go to school today? (yes/no)"
     answer = gets.chomp.downcase
         if answer == "yes"
             score += 5; 
-        else
+        elsif answer == "no"
             score -= 5;
+        else
+            raise
         end 
+    rescue 
+        puts "Invalid answer. Please type yes or no."
+        sleep(1)
+        retry 
+    end
 
     #q4
     puts
+    begin
     puts "Did you work while they were at school? (yes/no)"
     answer = gets.chomp.downcase
         if answer == "yes"
             score += 5; 
-        else
+        elsif answer == "no"
             score += 0;
+        else
+            raise
         end 
+    rescue 
+        puts "Invalid answer. Please type yes or no."
+        sleep(1)
+        retry
+    end
     
-            
+    
     #q5
     puts
+    begin
     puts "Lunchtime! Did you pack them a healthy lunch? (yes/no)"
     answer = gets.chomp.downcase
         if answer == "yes"
             score += 5; 
-        else
+        elsif answer == "no"
             score += 0;
+        else
+            raise
         end 
-    
+    rescue 
+        puts "Invalid answer. Please type yes or no."
+        sleep(1)
+        retry
+    end
 
     #q6
     puts
+    begin
     puts "It's 3pm, are you at the school chatting to other parents, waiting for your kid? (yes/no)"
     answer = gets.chomp.downcase
         if answer == "yes"
             score += 5; 
-        else
+        elsif answer == "no"
             score += 0;
-        end
+        else
+            raise
+        end 
+    rescue 
+        puts "Invalid answer. Please type yes or no."
+        sleep(1)
+        retry
+    end
 
     #q7
     puts
+    begin
     puts "Do they go to at least one after school activity each week? (yes/no)"
     answer = gets.chomp.downcase
         if answer == "yes"
             score += 5; 
-        else
+        elsif answer == "no"
             score += 0;
-        end
+        else
+            raise
+        end 
+    rescue 
+        puts "Invalid answer. Please type yes or no."
+        sleep(1)
+        retry
+    end
 
     #q8
     puts
+    begin
     puts "Time for dinner. Did you cook dinner tonight? (yes/no)"
     answer = gets.chomp.downcase
         if answer == "yes"
             score += 5; 
-        else
+        elsif answer == "no"
             score -= 5;
-        end
+        else
+            raise
+        end 
+    rescue 
+        puts "Invalid answer. Please type yes or no."
+        sleep(1)
+        retry
+    end
 
     #q9
     puts
+    begin
     puts "Have they brushed their teeth? (yes/no)"
     answer = gets.chomp.downcase
         if answer == "yes"
             score += 5; 
-        else
+        elsif answer == "no"
             score -= 10;
-        end
+        else
+            raise
+        end 
+    rescue 
+        puts "Invalid answer. Please type yes or no."
+        sleep(1)
+        retry
+    end
 
     #q10
     puts
+    begin
     puts "Is Bed time earlier than 8pm? (yes/no)"
     answer = gets.chomp.downcase
         if answer == "yes"
             score += 5; 
-        else
+        elsif answer == "no"
             score += 0;
+        else
+            raise
         end 
-    total_score = score
+    rescue 
+        puts "Invalid answer. Please type yes or no."
+        sleep(1)
+        retry
+    end
     puts "You have made it to the end of the day! Would you like to know your score #{@user_name.capitalize}?".colorize(:blue) 
     puts 'Select "View-score" below.'.colorize(:blue)
     puts
+    return score
 end
 ##QUESTIONS_END
 
-def view_score
+def view_score(score)
     system 'clear'
     arti = Artii::Base.new :font => 'slant'
     puts arti.asciify('Scores!').colorize(:magenta)
-    # print "#{@user_role.capitalize} #{@user_name.capitalize}, you scored #{@total_score}!"
+    puts "#{@user_role.capitalize} #{@user_name.capitalize}, you scored #{score}!"
     # incorporate score outputs if possible:
     # If score is <10, puts "You should really reconsider being a parent."
 
@@ -232,9 +312,9 @@ loop do
     case menu(prompt)
     when 1
         questions
-        all_questions
+        @total_score = all_questions
     when 2
-        view_score
+        view_score(@total_score)
     when 3
         help
     when 4
