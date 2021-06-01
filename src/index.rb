@@ -202,7 +202,7 @@ def all_questions
     puts "You have made it to the end of the day! Would you like to know your score #{@user_name.capitalize}?".colorize(:blue) 
     puts 'Select "View-score" below.'.colorize(:blue)
     puts
-    return view_score(score)
+    view_score(score)
 end
 ##QUESTIONS_END
 
@@ -218,15 +218,15 @@ def view_score(score)
     puts "You're ok mate! Not cream of the crop, but could be worse." if ( score < 30 and score > 20 )
     puts "Are you trying to be a good parent? Keep trying." if ( score < 30 and score > 40 )
     puts 'So "Crunchy mummy", you think you are all that huh??' + "\u{1f600}" if score > 40
-    # else
-    # puts "I need a coffee! I have no idea what you just did! Start again??" + "\u{1f600}"
-    end 
-    puts
-    puts "But at the end of the day, you will always do the best for your child. If you are now, or choose to become a parent, you got this!" 
-    puts "In the words of Gillian Anderson:"
-    # speech = ESpeak::Speech.new("Let's stop being so damn judgmental and crucifying everyone who doesn't fit into our boxed-in perceptions of what is right.")
-    # speech.speak
-    puts '"Let`s stop being so damn judgmental and crucifying everyone who doesn`t fit into our boxed-in perceptions of what is right."' ##using Espeak Gem to say it##
+    # # else
+    # # puts "I need a coffee! I have no idea what you just did! Start again??" + "\u{1f600}"
+    # end 
+    # puts
+    # puts "But at the end of the day, you will always do the best for your child. If you are now, or choose to become a parent, you got this!" 
+    # puts "In the words of Gillian Anderson:"
+    # # speech = ESpeak::Speech.new("Let's stop being so damn judgmental and crucifying everyone who doesn't fit into our boxed-in perceptions of what is right.")
+    # # speech.speak
+    # puts '"Let`s stop being so damn judgmental and crucifying everyone who doesn`t fit into our boxed-in perceptions of what is right."' ##using Espeak Gem to say it##
 end
 
 def help
